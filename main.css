@@ -1,0 +1,32 @@
+.outside  {
+ background-color:  #000080;
+ padding: 30px;
+}
+
+.inside {
+ background-color: white;
+ border-radius: 20px;
+ padding: 20px;
+
+}
+
+h2, h3 {
+color: grey;
+font-family: Verdana;
+vertical-align: center;
+
+}
+
+h1 {
+    color:#000080;
+    font-family: Verdana;
+    vertical-align: center;
+    text-align: center;
+    font-weight: bold;
+    
+    }
+
+body {
+    background-image: url("body.jpg");  
+}
+

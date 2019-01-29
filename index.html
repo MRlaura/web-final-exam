@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rojas Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="loadfile.js"></script>
+</head>
+<body>
+ <header class="jumbotron">
+         <h1> Rojas Store </h1> 
+ </header>
+    <div> </div>
+    <br>
+    <div class="container outside" id="catalog" >
+        <div class="container inside" id="catalogProduct">
+    <section> 
+        <h2>Product catalog  </h2>
+        
+    </section>    
+      <hr>
+    <section>
+ 
+    </section>
+    <div id="productDisplay">
+     <!-- list of availbale products will appeared here-->   
+    
+    </div>
+    <br>
+
+    <button type="button" id="buttonsContinue" onclick="showCar()" >Continue</button>
+    
+    </div> <!-- catalogproduct-->
+    </div> <!-- container catalog-->
+    <div class="container outside" id="carBig">
+        <div class="container inside" id="carInner"> 
+        <div id="carList">
+            <!-- a title section appeared when the client has selected products to buy-->
+            <h3>Order Summary</h3>
+         <hr>
+
+        </div>    
+        <div  class="row">
+        <div class="col" id="left"> 
+            <!-- display product info-->
+            <br>
+            <ol > </ol>
+        </div>
+       
+        <div class="col" id="right">
+        <!-- display total price-->  
+       <div > 
+       </div> 
+        
+        </div>
+        </div>
+        <br>
+        <button type="button" class="bt btn-info" id="buttonsContinue" onclick="buyCleanCar()" >Buy</button>
+        </div> 
+        </div>
+    
+</body>
+</html>
