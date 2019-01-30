@@ -1,12 +1,3 @@
-
-
-// var product= [{"name":"bed","price":225.0},
-// {"name":"bench","price":29.99},
-// {"name":"chair","price":9.99},
-// {"name":"couch","price":50.0},
-// {"name":"pillow","price":5.0}]; 
-
-
 function loadData(){
         
     let dataList = document.getElementById('productDisplay');
@@ -51,19 +42,16 @@ let dataList = document.getElementById("productDisplay");
        
        // console.log (car[i].productname, car[i].price, car[i].buy );
         i = i + 1; // Alternatively, use i++;
-
-
 }    //while 
-
 } // addcar
 
 function clearFields() {
     var fila= document.getElementsByClassName("quantity")
-     fila.forEach(elem => {
-         elem.value=null;
-     }
-        )
-    //document.getElementsByClassName("quantity").value=null;
+    let i = 0
+    while (i < fila.length) {
+        fila[i].value=0
+        i++
+    }  
 }
 
 
