@@ -6,7 +6,7 @@ function loadData(){
 
     title.innerHTML=`<div class="col"><h5>Product</h5></div> 
     <div class="col"><h5>Price</h5></div> 
-    <div class="col"></div>`;
+    <div class="col">Select quantity </div>`;
     dataList.append(title);
 
     // let productid= 0;
@@ -19,7 +19,7 @@ function loadData(){
 
        listItem.innerHTML = `<div class="col">${element.name}</div>
        <div class="col">${element.price}</div>
-       <div class="col" >Select quantity <input class="quantity" type="number" min=0 max=10 value=0> </input></div> `;
+       <div class="col" ><input class="quantity" type="number" min=0 max=10 value=0> </input></div> `;
        dataList.append(listItem);
     });
     } //function load
